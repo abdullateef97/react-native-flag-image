@@ -15,7 +15,7 @@ const generateFlagStyles = (width, height)=>{
       height: height,
       borderWidth: 1 / PixelRatio.get(),
       borderColor: '#eee',
-      opacity: 0.8
+      opacity: 1
     }
   });
 }
