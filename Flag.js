@@ -10,22 +10,18 @@ import countryFlags from './constants/countryFlags'
 const generateFlagStyles = (width, height)=>{
   return StyleSheet.create({
     flag: {
-      resizeMode: 'contain',
       width: width,
-      height: height,
-      borderWidth: 1 / PixelRatio.get(),
-      borderColor: '#eee',
-      opacity: 1
+      height: height
     }
   });
 }
 
 class Flag extends Component {
   render() {
-    let flagStyle = generateFlagStyles(this.props.width, this.props.height);
+    let styles = generateFlagStyles(this.props.width, this.props.height);
     return (
         <Image
-          style={flagStyle.flag}
+          style={styles.flag}
           source={{uri: countryFlags[this.props.countryCode]}}
           />
     );
