@@ -1,0 +1,19 @@
+{
+  "name": "react-native-flag-image",
+  "version": "1.0.0",
+  "description": "Simple React Native Flag Icon Shower",
+  "main": "Flag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/et3arraf/react-native-flag-image.git"
+  },
+  "author": "et3arraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/et3arraf/react-native-flag-image/issues"
+  },
+  "homepage": "https://github.com/et3arraf/react-native-flag-image#readme"
+}
