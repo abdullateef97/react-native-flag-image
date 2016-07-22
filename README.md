@@ -10,7 +10,7 @@ class MyComponent extends Component {
   render() {
     return (
       <View>
-        <Flag width={60} height={40} countryCode={'SA'}/>
+        <Flag width={30} height={20} countryCode={'SA'} customStyle={{opacity:0.2}} />
       </View>
     );
   }
